@@ -1,0 +1,74 @@
+.register-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 50px;
+  padding:30px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.register-form .contain {
+  background-color: #DEE7FD;
+
+}
+
+.register-form form input[type=text], .register-form form input[type=password] {
+  width: 80%;
+  padding: 12px 20px;
+  margin-top: 20px;
+  margin-left: 40px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.register-form form {
+  background-color: #F4F4F4;
+}
+
+.register-form form input[type=checkbox] {
+
+  margin-top: 20px;
+  margin-left: 40px;
+  display: inline-block;
+}
+
+.register-form form input[type=submit]{
+  background-color: #0078FF;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+   border: none;
+   color: white;
+   padding: 10px 20px;
+   font-size: 16px;
+   border-radius: 14px;
+   width: 80%;
+}
+
+
+.register-msg {
+  margin: auto;
+  text-align: center;
+
+}
+
+.register-msg h2 {
+  font-size: 40px;
+  color: #0078FF;
+  font-weight: bold;
+}
+
+.register-msg button {
+  background-color: #0078FF;
+  margin-top: 20px;
+
+   border: none;
+   color: white;
+   padding: 10px 20px;
+   font-size: 16px;
+   border-radius: 14px;
+
+}

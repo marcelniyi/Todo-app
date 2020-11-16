@@ -1,0 +1,40 @@
+.navbar {
+  overflow: hidden;
+  background-color: white;
+}
+
+.navbar a {
+  float: left;
+  color: #0078FF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar #active {
+  background: #0078FF;
+  color: white;
+}
+
+.navbar h3{
+  float: left;
+  color: #0078FF;
+  text-align: center;
+  font-size: 17px;
+  margin-left: 40px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  text-decoration-color: #0078FF;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.navbar-links {
+  float: right;
+  margin-right: 30px;
+}

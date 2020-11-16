@@ -47,3 +47,11 @@
 .task-wrapper:hover{
     background-color: #F0F0F0;
 }
+
+#errorDisplay {
+  margin: auto;
+  width: 30%;
+  font-size: 30px;
+  color: red;
+  padding: 70px;
+}
